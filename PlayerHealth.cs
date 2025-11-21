@@ -57,5 +57,6 @@ public class PlayerHealth : MonoBehaviour
 
         // Gemiyi başlangıç noktasına ışınla
         transform.position = startPos;
+        HAZIRDA KOD VARDI HOCAM ŞİMDİ YAZMADIM
     }
 }
