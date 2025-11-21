@@ -35,10 +35,10 @@ using UnityEngine.UI;
         if (GameManager.Instance != null)
         {
             // Eğer bu son haksa (zaten 0 veya 1 kaldıysa) öleceğiz
-            if (GameManager.Instance.lives <= 1)
+            if (GameManager.Instance.lives <= 1000)
             {
                 GameManager.Instance.LoseLife(); // Bu Game Over yapacak
-                Destroy(gameObject); // Gemiyi yok et
+                Destroy(gameObject); // Gemiyi yok et    
             }
             else
             {
@@ -57,6 +57,6 @@ using UnityEngine.UI;
 
         // Gemiyi başlangıç noktasına ışınla
         transform.position = startPos;
-        HAZIRDA KOD VARDI HOCAM ŞİMDİ YAZMADIM
+        //HAZIRDA KOD VARDI HOCAM ŞİMDİ YAZMADIM yalancısın. 
     }
 }
