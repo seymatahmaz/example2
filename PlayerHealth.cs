@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PlayerHealth : MonoBehaviour
+[SeriliazeField] private class PlayerHealth : MonoBehaviour
 {
     public int maxHealth = 100;
     public int currentHealth;
